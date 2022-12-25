@@ -43,12 +43,12 @@ header div {
 }
 
 .text-container {
-    height: 32vh;
+    height: 34vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 5px;
-    background-color: #d3d3d3;
+    background-color: #e0e0e0;
 }
 
 .text-container p {
@@ -72,7 +72,7 @@ header div {
 }
 
 .form-footer{
-    height: 28vh;
-    background-color: #d3d3d3;
+    height: 26vh;
+    background-color: #e0e0e0;
 }
 
