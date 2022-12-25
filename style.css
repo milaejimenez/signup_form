@@ -7,6 +7,7 @@
 
 body {
     display: flex;
+    font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 header div {
@@ -32,10 +33,7 @@ header div {
     font-size: 3.5rem;
     color: white;
     opacity: 100%;
-
 }
-
-
 
 .main { 
     border: 1px solid green;
@@ -44,27 +42,30 @@ header div {
 }
 
 .text-container {
-    border: 2px solid blue;
-    height: 30vh;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px;
+    background-color: #d3d3d3;
 }
 
 .text-container p {
-    position: relative;
-    bottom: 0;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .form {
-    border: 1px solid yellow;
     height: 70vh;
 }
 
 .main-form {
     height: 40vh;
-    border: 1px solid orange;
 }
 
 .form-footer{
-    height: 30vh;
-    border: 1px solid black;
+    height: 28vh;
+    background-color: #d3d3d3;
 }
 
