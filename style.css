@@ -64,15 +64,36 @@ header div {
 }
 
 .form {
-    height: 70vh;
+    height: 60vh;
 }
 
 .main-form {
-    height: 40vh;
+    height: 35vh;
+    padding: 40px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-form p {
+    margin-left: 10px;
+    flex-basis: 100%;
+    width: fit-content;
+}
+
+.main-form div {
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding: 0px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
 
 .form-footer{
-    height: 26vh;
+    height: 31vh;
     background-color: #e0e0e0;
 }
 
