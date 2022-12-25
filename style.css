@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
 }
 
 body {
@@ -7,10 +10,32 @@ body {
 }
 
 header div {
-    border: 1px solid red;
+    background-image: url('city-future.jpg');
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 40vw;
 }
+
+.title {
+    background-image: none;
+    background-color: rgba(10,10,10,0.5);
+    position: relative;
+    top: 40%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title p {
+    font-size: 3.5rem;
+    color: white;
+    opacity: 100%;
+
+}
+
+
 
 .main { 
     border: 1px solid green;
@@ -20,7 +45,12 @@ header div {
 
 .text-container {
     border: 2px solid blue;
-    height: 30vh
+    height: 30vh;
+}
+
+.text-container p {
+    position: relative;
+    bottom: 0;
 }
 
 .form {
