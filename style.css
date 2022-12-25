@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+header div {
+    border: 1px solid red;
+    height: 100vh;
+    width: 40vw;
+}
+
+.main { 
+    border: 1px solid green;
+    height: 100vh;
+    width: 60vw;
+}
+
+.text-container {
+    border: 2px solid blue;
+    height: 30vh
+}
+
+.form {
+    border: 1px solid yellow;
+    height: 70vh;
+}
+
+.main-form {
+    height: 40vh;
+    border: 1px solid orange;
+}
+
+.form-footer{
+    height: 30vh;
+    border: 1px solid black;
+}
+
