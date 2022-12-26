@@ -34,7 +34,7 @@
 
                     <div>
                         <label for="FirstName">First Name<span>*</span> </label>
-                        <input type="text" id="FirstName" required>
+                        <input type="text" id="FirstName" title="Please type in your first name" required>
                     </div>
                     <div>
                         <label for="LastName">Last Name<span>*</span> </label>
@@ -50,7 +50,7 @@
                     </div>
                     <div>
                         <label for="Password1">Password<span>*</span> </label>
-                        <input type="password" id="Password1" required>
+                        <input type="password" id="Password1" pattern="^.*(?=.{6,12})(?=.*\d)(?=.*[a-zA-Z]).*$" required>
                     </div>
                     <div>
                         <label for="Password2">Confirm Password<span>*</span> </label>

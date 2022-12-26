@@ -124,6 +124,22 @@ input {
     border-radius: 5px; 
 }
 
+input:focus:required:invalid { 
+    background-color: pink;
+    border: 2px solid red;
+}
+
+input:required:valid {
+    border: 2px solid blue;
+    box-shadow: 1px 1px 6px #3C3C3C; 
+}
+/* 
+input:focus {
+    border: blue;
+    box-shadow: 1px 1px 6px #3C3C3C;;
+} */
+
+
 /* Form Footer */
 .form-footer{
     height: 36vh;
