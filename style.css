@@ -12,6 +12,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header */
+
 header div {
     background-image: url('city-future.jpg');
     background-size: cover;
@@ -37,10 +39,15 @@ header div {
     opacity: 100%;
 }
 
+
+/* Form and Footer */
+
 .main { 
     height: 100vh;
     width: 60vw;
 }
+
+/* Form */
 
 .text-container {
     height: 34vh;
@@ -68,7 +75,7 @@ header div {
 }
 
 .main-form {
-    height: 35vh;
+    height: 32vh;
     padding: 40px 15px;
     display: flex;
     flex-wrap: wrap;
@@ -77,7 +84,7 @@ header div {
 .main-form p {
     margin-left: 10px;
     flex-basis: 100%;
-    width: fit-content;
+    text-transform: uppercase;
 }
 
 .main-form div {
@@ -92,8 +99,9 @@ label {
     text-transform: uppercase;
 }
 
+/* Form Footer */
 .form-footer{
-    height: 31vh;
+    height: 34vh;
     background-color: #e0e0e0;
 }
 
